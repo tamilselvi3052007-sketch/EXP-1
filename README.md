@@ -1,8 +1,8 @@
 ## EXPERIMENT NO. 1 – VERIFICATION OF KIRCHHOFF'S LAWS
 
-| **Name:** |  | **Reg. No.:** |  |
+| **Name:**\ | MOHANAPRIYA G | **Reg. No.:** | 26018306 |
 |---|---|---|---|
-| **Date:** | | **Batch / Section:** | |
+| **Date:** |16-11-2026 | **Batch / Section:** |26ODJ121 |
 
 ---
 
@@ -55,12 +55,16 @@ b. To verify Kirchhoff's Current Law (KCL) for the given circuit.
 ### A. KVL circuit diagram
 
 *[ Insert the KVL circuit diagram here ]*
+<img width="718" height="836" alt="KVL DRAW" src="https://github.com/user-attachments/assets/24e85c5a-3f93-442a-bb42-56101dbbb1f9" />
+
 
 **Figure 1:** KVL verification circuit
 
 ### B. KCL circuit diagram
 
 *[ Insert the KCL circuit diagram here ]*
+<img width="718" height="857" alt="KCL DRAW" src="https://github.com/user-attachments/assets/a8d6ef35-d0dd-4f91-8647-5fe9edfa157a" />
+
 
 **Figure 2:** KCL verification circuit
 
@@ -71,12 +75,15 @@ Build the KVL and KCL circuits in Proteus using the same resistor values and sup
 ### A. KVL simulation
 
 *[ Paste the Proteus KVL simulation screenshot here ]*
+<img width="945" height="587" alt="Screenshot 2026-10-14 150930" src="https://github.com/user-attachments/assets/6275ae10-0624-41da-9e95-37766692071b" />
+
 
 **Figure 3:** Proteus simulation of KVL circuit
 
 ### B. KCL simulation
 
 *[ Paste the Proteus KCL simulation screenshot here ]*
+<img width="1920" height="1080" alt="Screenshot 2026-11-15 194918" src="https://github.com/user-attachments/assets/75246c15-a48f-42d5-96fc-70ea7e589be8" />
 
 **Figure 4:** Proteus simulation of KCL circuit
 
@@ -86,15 +93,15 @@ Build the KVL and KCL circuits in Proteus using the same resistor values and sup
 
 | S. No. | Supply voltage Vs (V) | VR1 (V) | VR2 (V) | VR3 (V) | VR1 + VR2 + VR3 (V) |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| Theoritical |  |  |  | | |
-| Practical | | | | | |
+| Theoritical | 100 | 1668 V | 27.8 V | 55.6 V | 100.05 |
+| Practical | 100 | 16.7 V| 27.8 V | 55.6 V | 100.1 |
 
 ### B. KCL – Current measurements
 
 | S. No. | Supply voltage Vs (V) | Total current It (A) | Branch current I1 (A) | Branch current I2 (A) | Branch current I3 (A) | I1 + I2 + I3 (A) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Theoritical | | | | | | |
-| Practical | | | | | | |
+| Theoritical | -1.48 A | 1.85 A | 0.56 A | 52.63 | | |
+| Practical |1.58 | 1.05 A | 0.53 A | 52.6 A | | |
 
 ## CALCULATIONS
 
@@ -105,6 +112,8 @@ According to KVL, **Vs = VR1 + VR2 + VR3**.
 Substitute the observed values and verify that the algebraic sum of the voltage drops is approximately equal to the supply voltage.
 
 *[ Paste the KVL calculation screenshot here ]*
+<img width="1185" height="1600" alt="KVL" src="https://github.com/user-attachments/assets/b7e01e52-12db-4022-8340-ef3997844ff6" />
+
 
 **Figure 5:** KVL calculation
 
@@ -115,6 +124,8 @@ According to KCL, **It = I1 + I2 + I3**.
 Substitute the observed values and verify that the total current entering the node is approximately equal to the sum of the branch currents.
 
 *[ Paste the KCL calculation screenshot here ]*
+<img width="1181" height="1600" alt="KCL" src="https://github.com/user-attachments/assets/8413e927-d7e3-4987-896d-2f23d7600dc5" />
+
 
 **Figure 6:** KCL calculation
 
